@@ -12,7 +12,7 @@ map.on('style.load', function()
 {
   map.addSource('parks', {
   type: 'geojson',
-  data: '/data/map.geojson',
+  data: 'data/map.geojson',
   });
 
   map.addLayer({
